@@ -1,0 +1,154 @@
+/* .rocket {
+  background-image: url(/img/rocket.png);
+  transition: 4s;
+  width: 256px;
+  height: 256px;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}
+
+.cosmos {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/img_b.jpg);
+  position: relative;
+}
+
+.cosmos:hover .rocket {
+  transform: translatex(4000px) translatey(-2700px) rotate(90deg);
+  border-radius: 67px;
+} */
+
+/* .box_1 {
+  margin-left: -400px;
+  display: flex;
+  transition: 1s;
+}
+
+.box_2 {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(137, 137, 137);
+}
+
+.img {
+  background-image: url(/img/jungle.png);
+  height: 128px;
+  width: 128px;
+  background-size: cover;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  margin-left: 50px;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+.text1 {
+  writing-mode: vertical-lr;
+  display: flex;
+  background-color: rgba(255, 242, 0, 0.671);
+  justify-content: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.box_1:hover {
+  transform: translateX(400px);
+} */
+
+/* .card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px grey;
+  animation: opacity 1s ease infinite;
+  background-color: red;
+}
+
+@keyframes opacity {
+  0% {
+    transform: rotate(320deg);
+  }
+
+  50% {
+    opacity: 0.5;
+    background-color: cornflowerblue;
+    transform: scale(1) translatex(50px) rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: yellow;
+    transform: scale(1.5) translatey(50px) rotate(90deg);
+  }
+} */
+
+/* .card1 {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px grey;
+  animation: card1 4s ease infinite;
+}
+
+@keyframes card1 {
+  10% {
+    background-color: white;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: white;
+  }
+  25% {
+    transform: translate(0, 300px);
+    background-color: red;
+  }
+  35% {
+    background-color: white;
+  }
+  50% {
+    transform: translate(300px, 300px);
+    background-color: red;
+  }
+  65% {
+    background-color: white;
+  }
+  75% {
+    transform: translate(300px, 0);
+    background-color: red;
+  }
+
+  85% {
+    background-color: white;
+  }
+
+  100% {
+    transform: translate(0);
+    background-color: red;
+  }
+} */
+
+.loading {
+  border: 1px solid red;
+  width: 0%;
+  animation: loading 0.9s ease infinite;
+  background-color: red;
+  height: 20px;
+  width: 500px;
+}
+
+@keyframes loading {
+  100% {
+    width: 100%;
+  }
+}
